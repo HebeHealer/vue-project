@@ -7,8 +7,8 @@ export default new Router({
   mode: 'history', // 去掉路由地址的#
   routes: [
     {
-      path: '/',  // 默认进入路由[写在第一个]
-      redirect: '/home' //重定向
+      path: '/',
+      redirect: '/home'
     },
     {
       path: '/home',

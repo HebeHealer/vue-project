@@ -8,6 +8,8 @@ import axios from './util/axios'
 Vue.prototype.axios = axios
 Vue.config.productionTip = false
 
+console.log(process.env.VUE_APP_URL)
+
 new Vue({
   router,
   store,
