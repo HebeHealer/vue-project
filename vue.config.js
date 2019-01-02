@@ -1,7 +1,7 @@
 module.exports = {
   outputDir: 'dist',
   assetsDir: 'static',
-  baseUrl: '/vue-project',
+  baseUrl: '/',
   devServer: {
     open: false,
     host: '0.0.0.0',

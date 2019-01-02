@@ -4,10 +4,14 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history',
+  mode: 'history', // 去掉路由地址的#
   routes: [
     {
-      path: '/',
+      path: '/',  // 默认进入路由[写在第一个]
+      redirect: '/home' //重定向
+    },
+    {
+      path: '/home',
       name: 'index',
       component: resolve => require(['../views'], resolve)
     },
