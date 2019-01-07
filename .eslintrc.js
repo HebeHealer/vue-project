@@ -105,8 +105,8 @@ module.exports = {
       "no-unreachable": 2,
       // 要求使用 isNaN() 检查 NaN
       "use-isnan": 2,
-      // 强制使用有效的 JSDoc 注释
-      "valid-jsdoc": 1,
+    //   // 强制使用有效的 JSDoc 注释
+    //   "valid-jsdoc": 1,
       // 强制 typeof 表达式与有效的字符串进行比较
       // typeof foo === "undefimed" 错误
       "valid-typeof": 2,
@@ -189,10 +189,6 @@ module.exports = {
       "no-lone-blocks": 2,
       // 禁止在循环中出现 function 声明和表达式
       "no-loop-func": 1,
-      // 禁用魔术数字(3.14什么的用常量代替)
-      "no-magic-numbers": [1, {
-          "ignore": [0, -1, 1]
-      }],
       // 禁止使用多个空格
       "no-multi-spaces": 2,
       // 禁止使用多行字符串，在 JavaScript 中，可以在新行之前使用斜线创建多行字符串
@@ -241,8 +237,8 @@ module.exports = {
       "no-useless-escape": 0,
       // 禁用 void 操作符
       "no-void": 0,
-      // 禁止在注释中使用特定的警告术语
-      "no-warning-comments": 0,
+    //   // 禁止在注释中使用特定的警告术语
+    //   "no-warning-comments": 0,
       // 禁用 with 语句
       "no-with": 2,
       // 强制在parseInt()使用基数参数
@@ -355,10 +351,10 @@ module.exports = {
       }],
       // 强制使用一致的换行风格
       "linebreak-style": [1, "unix"],
-      // 要求在注释周围有空行 ( 要求在块级注释之前有一空行)
-      "lines-around-comment": [1, {
-          "beforeBlockComment": true
-      }],
+    //   // 要求在注释周围有空行 ( 要求在块级注释之前有一空行)
+    //   "lines-around-comment": [1, {
+    //       "beforeBlockComment": true
+    //   }],
       // 强制一致地使用函数声明或函数表达式，方法定义风格，参数：
       // declaration: 强制使用方法声明的方式，function f(){} e.g [2, "declaration"]
       // expression：强制使用方法表达式的方式，var f = function() {} e.g [2, "expression"]
@@ -405,8 +401,8 @@ module.exports = {
       "newline-per-chained-call": 1,
       // 禁用 continue 语句
       "no-continue": 0,
-      // 禁止在代码行后使用内联注释
-      "no-inline-comments": 0,
+    //   // 禁止在代码行后使用内联注释
+    //   "no-inline-comments": 0,
       // 禁止 if 作为唯一的语句出现在 else 语句中
       "no-lonely-if": 0,
       // 禁止混合使用不同的操作符
@@ -466,8 +462,8 @@ module.exports = {
       "quote-props": 0,
       // 强制使用一致的反勾号、双引号或单引号
       "quotes": [2, "double", "avoid-escape"],
-      // 要求使用 JSDoc 注释
-      "require-jsdoc": 1,
+    //   // 要求使用 JSDoc 注释
+    //   "require-jsdoc": 1,
       // 要求或禁止使用分号而不是 ASI（这个才是控制行尾部分号的，）
       "semi": [2, "always"],
       // 强制分号之前和之后使用一致的空格
@@ -487,10 +483,10 @@ module.exports = {
           "words": true,
           "nonwords": false
       }],
-      // 强制在注释中 // 或 /* 使用一致的空格
-      "spaced-comment": [2, "always", {
-          "markers": ["global", "globals", "eslint", "eslint-disable", "*package", "!"]
-      }],
+    //   // 强制在注释中 // 或 /* 使用一致的空格
+    //   "spaced-comment": [2, "always", {
+    //       "markers": ["global", "globals", "eslint", "eslint-disable", "*package", "!"]
+    //   }],
       // 要求或禁止 Unicode BOM
       "unicode-bom": 0,
       // 要求正则表达式被括号括起来

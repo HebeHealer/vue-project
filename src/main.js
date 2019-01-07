@@ -1,11 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
-import router from "./routers/router";
+import router from "./routers/index";
 import store from "./store";
-import "./util/iview";
-import axios from "./util/axios";
 
-Vue.prototype.axios = axios;
+// import axios from "./util/axios";
+
+
+// Vue.prototype.axios = axios;
 Vue.config.productionTip = false;
 
 console.log(store.getters.todoLength);
