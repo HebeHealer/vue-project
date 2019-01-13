@@ -1,1 +1,9 @@
 export const SOME_MUTATION = "SOME_MUTATION";
+export const CHANGE_SEX = "CHANGE_SEX";
+export const GET_STUDENTS = "GET_STUDENTS";
+export const DO_CHANGE_SEX = "DO_CHANGE_SEX";
+export const INCREMENT_SIMPLE = "INCREMENT_SIMPLE";
+export const INCREMENT = "INCREMENT";
+export const DONE_TODOS = "DONE_TODOS";
+export const TODO_LENGTH = "TODO_LENGTH";
+export const INCREMENT_ASYNC = "INCREMENT_ASYNC";

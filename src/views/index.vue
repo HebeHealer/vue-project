@@ -8,7 +8,7 @@ import { mapState, mapGetters, mapMutations, mapActions } from "vuex";
 export default {
     name: "",
     created() {
-        console.log(this.countState);
+        // console.log(this.countState);
         // console.log(this.$store.state.count);
 
         // this.$store.commit("increment", { time: 1 });
@@ -19,7 +19,7 @@ export default {
         console.log(this.$store.state.count);
         // console.log(store.state.userInfo.name);
 
-        console.log(this.$store.getters.doneTodo);
+        // console.log(this.$store.getters.doneTodo);
     },
     computed: {
         countState () {
